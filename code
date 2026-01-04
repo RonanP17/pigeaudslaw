@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pigeaud's Law - Massachusetts Legislation</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -17,7 +19,7 @@
                     },
                     colors: {
                         navy: {
-                            800: '#1e3a8a', /* Adjusting for that deep blue header */
+                            800: '#1e3a8a',
                             900: '#111827',
                             950: '#172554',
                         },
@@ -31,7 +33,6 @@
         }
     </script>
     <style>
-        /* Custom formatting for the legal text indentations */
         .legal-list { list-style-type: none; padding-left: 0; }
         .legal-list li { margin-bottom: 1rem; }
         .sub-list { padding-left: 2rem; margin-top: 0.5rem; }
@@ -43,8 +44,9 @@
     <nav class="bg-white/95 backdrop-blur fixed w-full z-50 shadow-sm border-b border-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-20">
-                <div class="flex-shrink-0 flex items-center">
-                    <a href="#" class="text-navy-900 font-bold text-xl tracking-tight">Pigeaud's Law</a>
+                <div class="flex-shrink-0 flex items-center gap-3">
+                    <img src="logo.png" alt="Pigeaud's Law Logo" class="h-10 w-auto">
+                    <a href="#" class="text-navy-900 font-bold text-xl tracking-tight hidden sm:block">Pigeaud's Law</a>
                 </div>
                 
                 <div class="hidden md:flex space-x-8 items-center">
@@ -194,7 +196,7 @@
             <div class="bg-white p-8 md:p-12 rounded-xl shadow-sm border border-gray-100 text-left">
                 <div class="flex flex-col items-center mb-10">
                     <div class="w-48 h-56 bg-gray-300 rounded-xl overflow-hidden mb-4 shadow-md">
-                        <img src="https://via.placeholder.com/200x250/333/ccc?text=Francois+Pigeaud" alt="François Pigeaud" class="w-full h-full object-cover">
+                        <img src="father.jpg" alt="François Pigeaud" class="w-full h-full object-cover">
                     </div>
                     <h3 class="text-lg font-bold text-navy-900">François Pigeaud</h3>
                     <p class="text-sm text-gray-500">1965 - 2014</p>
@@ -290,8 +292,8 @@
             </div>
 
             <div class="flex justify-center mb-6">
-                <div class="w-48 h-48 rounded-2xl overflow-hidden shadow-lg">
-                     <img src="https://via.placeholder.com/200x200/444/ddd?text=Ronan+Pigeaud" alt="Ronan Pigeaud" class="w-full h-full object-cover">
+                <div class="w-48 h-48 rounded-2xl overflow-hidden shadow-lg bg-gray-200">
+                     <img src="ronan.jpg" alt="Ronan Pigeaud" class="w-full h-full object-cover">
                 </div>
             </div>
             <div class="text-center mb-10">
