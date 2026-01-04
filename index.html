@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pigeaud's Law - Massachusetts Legislation</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        navy: {
+                            800: '#1e3a8a',
+                            900: '#111827',
+                            950: '#172554',
+                        },
+                        gold: {
+                            400: '#d4af37',
+                            500: '#c5a065', 
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .legal-list { list-style-type: none; padding-left: 0; }
+        .legal-list li { margin-bottom: 1rem; }
+        .sub-list { padding-left: 2rem; margin-top: 0.5rem; }
+        .sub-sub-list { padding-left: 2rem; margin-top: 0.5rem; }
+    </style>
+</head>
+<body class="bg-gray-50 text-slate-800 font-sans antialiased">
+
+    <nav class="bg-white/95 backdrop-blur fixed w-full z-50 shadow-sm border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center gap-3">
+                    <img src="logo.png" alt="Pigeaud's Law Logo" class="h-10 w-auto">
+                    <a href="#" class="text-navy-900 font-bold text-xl tracking-tight hidden sm:block">Pigeaud's Law</a>
+                </div>
+                
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#bill" class="text-gray-600 hover:text-navy-800 font-medium text-sm transition">The Bill</a>
+                    <a href="#story" class="text-gray-600 hover:text-navy-800 font-medium text-sm transition">My Father's Story</a>
+                    <a href="#why" class="text-gray-600 hover:text-navy-800 font-medium text-sm transition">Why It Matters</a>
+                    <a href="#about" class="text-gray-600 hover:text-navy-800 font-medium text-sm transition">About Me</a>
+                    <a href="#action" class="bg-navy-900 hover:bg-navy-800 text-white px-5 py-2.5 rounded-md text-sm font-medium transition shadow-sm">Take Action</a>
+                </div>
+
+                <div class="md:hidden flex items-center">
+                    <button class="text-gray-600 hover:text-gray-900 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative bg-gradient-to-br from-slate-800 via-navy-900 to-slate-900 h-screen flex flex-col justify-center items-center text-center px-4 pt-16">
+        <div class="bg-white/10 text-gold-400 px-4 py-1 rounded-full text-xs font-semibold tracking-wide uppercase mb-6 backdrop-blur-sm border border-white/10">
+            Proposed Legislation
+        </div>
+        <h1 class="text-5xl md:text-7xl font-semibold text-white mb-6 tracking-tight">
+            Pigeaud's Law
+        </h1>
+        <p class="text-xl md:text-2xl text-blue-100 max-w-3xl font-light leading-relaxed mb-4">
+            Ensuring Access to Private Autopsies in Cases of Public Denial or Unavailability
+        </p>
+        <p class="text-gold-500 font-medium tracking-wide uppercase text-sm mb-12">
+            Proposed Legislation for Massachusetts
+        </p>
+        
+        <div class="w-16 h-0.5 bg-gray-500/50 mb-12"></div>
+
+        <p class="text-gray-300 max-w-2xl text-center leading-relaxed mb-16">
+            When the Commonwealth fails to provide answers, families deserve the right to seek truth independently. This bill protects that fundamental right for all Massachusetts residents.
+        </p>
+
+        <a href="#bill" class="text-gray-400 hover:text-white transition flex flex-col items-center gap-2 text-sm animate-bounce">
+            Learn More
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </header>
+
+    <section id="bill" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-16">
+                <div class="w-12 h-12 bg-gray-100 rounded-lg flex items-center justify-center mx-auto mb-4 text-navy-900">
+                    <i class="far fa-file-alt text-xl"></i>
+                </div>
+                <h2 class="text-3xl font-normal text-slate-800 mb-2">Read the Bill</h2>
+                <p class="text-gray-500 text-sm">The full text of the proposed Massachusetts legislation</p>
+            </div>
+
+            <div class="prose prose-slate max-w-none">
+                <h3 class="text-center uppercase font-bold text-slate-800 tracking-wider text-sm mb-2">An Act</h3>
+                <h4 class="text-center text-navy-800 text-lg font-medium mb-8">Ensuring Access to Private Autopsies in Cases of Public Denial or Unavailability</h4>
+                
+                <p class="italic text-gray-600 mb-8 text-center border-b pb-8">Be it enacted by the Senate and House of Representatives in General Court assembled, and by the authority of the same, as follows:</p>
+
+                <div class="mb-10">
+                    <h5 class="font-bold text-navy-900 uppercase text-sm mb-4">Section 1.</h5>
+                    <p class="mb-4">Chapter 111 of the General Laws is hereby amended by inserting after section 244 the following section:</p>
+                    <p class="font-semibold text-navy-900 mb-4">Section 245. Private Autopsy Subsidy Fund</p>
+                    
+                    <ul class="legal-list text-slate-700 text-sm leading-relaxed space-y-4">
+                        <li><strong>(a)</strong> There shall be established and set up on the books of the commonwealth a separate fund to be known as the Private Autopsy Subsidy Fund, hereinafter referred to as the fund. The department of public health shall administer the fund and may expend amounts from the fund, without further appropriation, for the purpose of providing financial assistance to eligible applicants for private autopsy services, as defined herein. All unexpended funds shall remain in the fund and shall not revert to the General Fund at the end of any fiscal year.</li>
+                        
+                        <li><strong>(b)</strong> Reimbursements under this section shall cover up to 80 percent of the cost of a private autopsy, not to exceed $4,000 per case. No more than one subsidy shall be awarded per deceased individual. Repeat applications by the same applicant within a calendar year shall require special approval by the advisory board.</li>
+                        
+                        <li><strong>(c)</strong> To be eligible for financial assistance, an applicant shall:
+                            <ul class="sub-list space-y-3 mt-3">
+                                <li><strong>(i)</strong> provide written documentation that an autopsy was formally declined or not performed due to unavailability of autopsy services at a public medical examiner's office, coroner's office, or licensed hospital, including but not limited to a written statement that autopsies are not offered at the facility. Such documentation shall be issued by the facility on official letterhead or in the standardized format provided by the department;</li>
+                                <li><strong>(ii)</strong> be the legal next of kin or a personal representative of the deceased;</li>
+                                <li><strong>(iii)</strong> submit a completed application within 60 days of the date of death; and</li>
+                                <li><strong>(iv)</strong> submit income documentation as required by the department. The department shall establish and publish income eligibility thresholds and a sliding scale reimbursement model, which shall be made publicly available.</li>
+                            </ul>
+                        </li>
+
+                        <li><strong>(d)</strong> The department shall:
+                            <ul class="sub-list space-y-3 mt-3">
+                                <li><strong>(i)</strong> maintain a publicly available list of board-certified forensic pathologists eligible for reimbursement under this program;</li>
+                                <li><strong>(ii)</strong> create and operate an application portal, accessible both online and in paper form;</li>
+                                <li><strong>(iii)</strong> publish multilingual information on the program in the top five most commonly spoken non-English languages in the commonwealth;</li>
+                                <li><strong>(iv)</strong> ensure that all facilities covered under this section release the decedent's remains to the next of kin or authorized representative within 12 hours of issuing the autopsy denial or unavailability notice.</li>
+                            </ul>
+                        </li>
+
+                        <li><strong>(e)</strong> The commissioner shall appoint a five-member advisory board to oversee implementation of the program, monitor access, equity, and compliance, and report annually to the clerks of the house and senate and the joint committee on public health. The report shall include the number of applications received, approvals and rejections, institutional compliance rates with written denial requirements, average and total amounts disbursed, and any recommendations for policy improvement.</li>
+                        
+                        <li><strong>(f)</strong> If annual fund revenue falls below $250,000, the department may request supplemental appropriation from the General Court to maintain program continuity.</li>
+                    </ul>
+                </div>
+
+                <div class="mb-10">
+                    <h5 class="font-bold text-navy-900 uppercase text-sm mb-4">Section 2.</h5>
+                    <p class="mb-4">Chapter 38 of the General Laws is hereby amended by inserting after section 3 the following section:</p>
+                    <p class="font-semibold text-navy-900 mb-4">Section 3A. Written Denials and Program Notification</p>
+                    
+                    <ul class="legal-list text-slate-700 text-sm leading-relaxed space-y-4">
+                        <li><strong>(a)</strong> Any licensed hospital, medical examiner, coroner, or public health authority that either declines to perform an autopsy or does not offer autopsy services shall issue a written statement to the requesting party within 24 hours of the autopsy request.</li>
+                        <li><strong>(b)</strong> The written statement shall include:
+                            <ul class="sub-list space-y-3 mt-3">
+                                <li><strong>(i)</strong> a clear statement indicating that the autopsy has been declined or is not available at the facility;</li>
+                                <li><strong>(ii)</strong> the name and contact information of the denying or non-providing entity; and</li>
+                                <li><strong>(iii)</strong> a standardized notification, as prepared by the department of public health, informing the next of kin of their right to seek a private autopsy and the availability of financial assistance through the Private Autopsy Subsidy Fund established in section 245 of chapter 111.</li>
+                            </ul>
+                        </li>
+                        <li><strong>(c)</strong> The department shall develop and distribute a uniform denial and unavailability form to be used by hospitals and public medical authorities. The form shall be available in multiple languages and accessible formats. The department shall track institutional compliance with this section and include relevant statistics in its annual report.</li>
+                    </ul>
+                </div>
+
+                <div class="mb-10">
+                    <h5 class="font-bold text-navy-900 uppercase text-sm mb-4">Section 3.</h5>
+                    <p class="mb-4">Chapter 38 of the General Laws is hereby amended by inserting after section 14 the following section:</p>
+                    <p class="font-semibold text-navy-900 mb-4">Section 14A. Cremation Permit Fee Allocation</p>
+                    <ul class="legal-list text-slate-700 text-sm leading-relaxed space-y-4">
+                        <li><strong>(a)</strong> Notwithstanding any general or special law to the contrary, ten dollars from each fee collected by the office of the chief medical examiner for the issuance of a cremation permit under section 14 shall be deposited into the Private Autopsy Subsidy Fund established in section 245 of chapter 111.</li>
+                        <li><strong>(b)</strong> The comptroller shall transfer said funds to the department of public health on a quarterly basis. Funds deposited under this section shall be used exclusively for the administration and disbursement of subsidies under the Private Autopsy Subsidy Fund.</li>
+                    </ul>
+                </div>
+
+                <div class="mb-10">
+                    <h5 class="font-bold text-navy-900 uppercase text-sm mb-4">Section 4.</h5>
+                    <p class="mb-4">Chapter 46 of the General Laws is hereby amended by inserting after section 26 the following section:</p>
+                    <p class="font-semibold text-navy-900 mb-4">Section 26A. Death Certificate Surcharge for Autopsy Subsidy Fund</p>
+                    <ul class="legal-list text-slate-700 text-sm leading-relaxed space-y-4">
+                        <li><strong>(a)</strong> A surcharge of five dollars shall be assessed on each certified copy of a death certificate issued in the commonwealth.</li>
+                        <li><strong>(b)</strong> Revenue generated from said surcharge shall be deposited into the Private Autopsy Subsidy Fund established in section 245 of chapter 111. The comptroller shall transfer said funds to the department of public health on a quarterly basis.</li>
+                        <li><strong>(c)</strong> Funds deposited under this section shall be used exclusively for the purposes set forth in said section 245 of chapter 111.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="story" class="py-24 bg-gray-50 border-t border-gray-200">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+            <div class="w-12 h-12 bg-orange-100 rounded-lg flex items-center justify-center mx-auto mb-4 text-orange-600">
+                <i class="far fa-heart text-xl"></i>
+            </div>
+            <h2 class="text-3xl font-normal text-slate-800 mb-2">My Father's Story</h2>
+            <p class="text-gray-500 text-sm mb-16">The personal tragedy that inspired this legislation</p>
+
+            <div class="bg-white p-8 md:p-12 rounded-xl shadow-sm border border-gray-100 text-left">
+                <div class="flex flex-col items-center mb-10">
+                    <div class="w-48 h-56 bg-gray-300 rounded-xl overflow-hidden mb-4 shadow-md">
+                        <img src="father.jpg" alt="François Pigeaud" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-lg font-bold text-navy-900">François Pigeaud</h3>
+                    <p class="text-sm text-gray-500">1965 - 2014</p>
+                </div>
+
+                <blockquote class="text-center text-navy-800 italic text-lg mb-10">
+                    "It is not the length of life, but the depth of life." - Ralph Waldo Emerson
+                </blockquote>
+
+                <div class="space-y-6 text-slate-700 leading-relaxed">
+                    <p>In 2014, my father died in a single-car accident. He veered off the road slowly before crashing into a boulder and succumbing to his injuries. The circumstances were immediately suspicious—this wasn't a typical accident. The slow, gradual drift off the road indicated something had gone wrong before the crash itself, suggesting an underlying medical problem.</p>
+                    
+                    <p>A toxicology screen was performed, which came back negative. There were no substances impairing his driving. But that only deepened the mystery. What caused him to lose control? The medical examiner performed what they described as an "external autopsy"—essentially a visual examination of the body. No internal investigation. No organ examination. No definitive answers.</p>
+
+                    <p>We were left with nothing but questions. Did he have a heart attack? A stroke? An aneurysm? A seizure? We'll never know. And that uncertainty carries a weight beyond grief—it carries fear. Health problems can be hereditary. Without knowing what took my father from us, we have no way of knowing if his family carries the same risk. Should we be screened for cardiac conditions? Neurological disorders? We're living in the dark.</p>
+
+                    <p>The lack of closure is devastating. The lack of medical information is terrifying. We wanted answers. We deserved answers. But the system that was supposed to provide them decided an external look was sufficient. No formal autopsy was performed. No investigation into why a healthy person suddenly lost control of their vehicle. My mother was not even informed of her right to request an autopsy in the first place.</p>
+                    
+                    <p>Had she known then what we know now—that she could request a private autopsy, that independent pathologists could provide the answers the state wouldn't—perhaps the circumstances would be different. But she didn't know. She was grieving, confused, and the system offered no guidance, no options, no recourse.</p>
+
+                    <div class="bg-blue-50 p-6 rounded-lg border-l-4 border-navy-800 mt-8">
+                        <p class="text-navy-900 font-medium">No family should have to live with this uncertainty. No family should have to fear inheriting unknown conditions because the state decided their loved one's death wasn't worth investigating. That is why I am advocating for Pigeaud's Law—so that my father's story, and our family's ongoing fear, might spare others the same fate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why" class="py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-16">
+                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-4 text-navy-800">
+                    <i class="fas fa-balance-scale text-xl"></i>
+                </div>
+                <h2 class="text-3xl font-normal text-slate-800 mb-2">Why This Bill Is Necessary</h2>
+                <p class="text-gray-500 text-sm">The systemic gaps in Massachusetts that Pigeaud's Law addresses</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-lg transition">
+                    <div class="w-8 h-8 bg-orange-100 text-orange-600 rounded flex items-center justify-center font-bold text-sm mb-4">1</div>
+                    <h3 class="text-lg font-bold text-navy-900 mb-3">Financial Barriers to Truth</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Private autopsies can cost $3,000–$5,000 or more—an impossible expense for most grieving families. Pigeaud's Law establishes a Private Autopsy Subsidy Fund covering up to 80% of costs (maximum $4,000), ensuring access regardless of income.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-lg transition">
+                    <div class="w-8 h-8 bg-orange-100 text-orange-600 rounded flex items-center justify-center font-bold text-sm mb-4">2</div>
+                    <h3 class="text-lg font-bold text-navy-900 mb-3">No Written Denial Requirement</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Currently, families receive verbal denials or are simply ignored when requesting autopsies. This bill requires written denials within 24 hours, creating accountability and documentation that families can act upon.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-lg transition">
+                    <div class="w-8 h-8 bg-orange-100 text-orange-600 rounded flex items-center justify-center font-bold text-sm mb-4">3</div>
+                    <h3 class="text-lg font-bold text-navy-900 mb-3">Hidden Rights and Resources</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Families don't know private autopsies are an option or that assistance might exist. The bill mandates that all denial notices include information about the right to private autopsy and available financial assistance.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-lg transition">
+                    <div class="w-8 h-8 bg-orange-100 text-orange-600 rounded flex items-center justify-center font-bold text-sm mb-4">4</div>
+                    <h3 class="text-lg font-bold text-navy-900 mb-3">Bureaucratic Obstruction</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Bodies are held indefinitely while paperwork languishes and evidence degrades. This bill requires release of remains within 12 hours of issuing a denial, protecting the integrity of potential evidence.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-lg transition">
+                    <div class="w-8 h-8 bg-orange-100 text-orange-600 rounded flex items-center justify-center font-bold text-sm mb-4">5</div>
+                    <h3 class="text-lg font-bold text-navy-900 mb-3">No Pathologist Directory</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Families scrambling to find qualified forensic pathologists face dead ends and unqualified providers. The bill creates a publicly available list of board-certified forensic pathologists, ensuring families can quickly find legitimate help.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] hover:shadow-lg transition">
+                    <div class="w-8 h-8 bg-orange-100 text-orange-600 rounded flex items-center justify-center font-bold text-sm mb-4">6</div>
+                    <h3 class="text-lg font-bold text-navy-900 mb-3">Unsustainable Funding Models</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Without dedicated revenue, assistance programs fail. This bill creates sustainable funding through modest fees ($10 per cremation permit, $5 per death certificate copy) that generate approximately $500,000+ annually while maintaining program continuity.</p>
+                </div>
+            </div>
+
+            <div class="mt-16 bg-navy-800 text-white rounded-lg p-10 text-center shadow-lg">
+                <p class="text-lg md:text-xl font-light italic leading-relaxed">
+                    "The right to know how a loved one died should not depend on wealth or the discretion of an overworked bureaucracy. Every Massachusetts family deserves answers."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-gray-50">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-10">
+                <div class="w-12 h-12 bg-gray-200 rounded-lg flex items-center justify-center mx-auto mb-4 text-gray-600">
+                    <i class="far fa-user text-xl"></i>
+                </div>
+                <h2 class="text-3xl font-normal text-slate-800 mb-2">About Me</h2>
+                <p class="text-gray-500 text-sm">The advocate behind the legislation</p>
+            </div>
+
+            <div class="flex justify-center mb-6">
+                <div class="w-48 h-48 rounded-2xl overflow-hidden shadow-lg bg-gray-200">
+                     <img src="ronan.jpg" alt="Ronan Pigeaud" class="w-full h-full object-cover">
+                </div>
+            </div>
+            <div class="text-center mb-10">
+                <h3 class="text-xl font-bold text-navy-900">Ronan Pigeaud</h3>
+                <p class="text-sm text-gray-500">Advocate for Pigeaud's Law</p>
+            </div>
+
+            <div class="prose prose-slate text-slate-700 leading-relaxed mx-auto">
+                <p class="mb-6">My name is Ronan Pigeaud. I grew up in Framingham, Massachusetts, and I'm currently a student at New York University, studying psychology. My father, François, passed away in 2014, and ever since, I have served as an advocate for childhood grief resources, which I continue as a camp counselor at Experience Camps. I never imagined I would be pushing legislative change to this degree, but grief has transformed my path and inspired a deep sense of purpose.</p>
+
+                <p class="mb-6">After experiencing firsthand the failures of our current system—the inadequate examination, the lack of guidance, the questions about hereditary health risks—I knew I could not simply accept it and move on. Too many other Massachusetts families can and will experience this same negligence without demonstrable change. Too many questions go unanswered, and too many institutions fail those they are meant to serve.</p>
+
+                <p class="mb-6">I named this bill after my family—Pigeaud's Law—because I want it to carry my father's memory forward. I want the name to become synonymous with the right to truth and the protection of families in their most vulnerable moments. What happened to us in 2014 should never happen to another grieving family.</p>
+
+                <p class="mb-6">It is important to note that this is not just about my family—it is about everyone out there who may have experienced, or may experience in the future, the same trauma that has sat in the forefront of my mind for so long. It is about building a system that honors loved ones who have passed by serving those who loved them. It is about removing the connection between hardship and helplessness.</p>
+
+                <p>I am proud to share that I've been in contact with and working alongside the office of Representative Jack Patrick Lewis to get Pigeaud's Law on the legislative docket. This collaboration represents a crucial step forward in transforming this vision into reality for Massachusetts families. However, I could use everyone's help getting this bill on as many desks of representatives as possible—the more voices that speak up, the stronger our chance of making this law a reality.</p>
+            </div>
+
+            <div class="border-t border-gray-200 my-12"></div>
+
+            <div id="action" class="text-center space-y-16">
+                
+                <div>
+                    <h3 class="text-xl font-bold text-navy-900 mb-4">Join the Movement</h3>
+                    <p class="text-slate-600 text-sm mb-6 max-w-xl mx-auto">Your voice matters. Whether you've experienced a similar situation or simply believe in the cause, I invite you to join me in advocating for Pigeaud's Law in Massachusetts.</p>
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
+                        <a href="#" class="bg-navy-900 hover:bg-navy-800 text-white px-6 py-3 rounded-md text-sm font-medium transition shadow-sm flex items-center justify-center gap-2">
+                            <i class="far fa-envelope"></i> Contact Your Representative
+                        </a>
+                        <a href="#" class="bg-white border border-slate-300 hover:border-slate-400 text-slate-700 hover:text-slate-900 px-6 py-3 rounded-md text-sm font-medium transition shadow-sm flex items-center justify-center gap-2">
+                            <i class="fas fa-share-square"></i> Share This Cause
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold text-navy-900 mb-4">Share Your Story</h3>
+                    <p class="text-slate-600 text-sm mb-6 max-w-xl mx-auto">Have you or someone you know been affected by similar circumstances? Your story could help strengthen this legislation and bring about meaningful change.</p>
+                    <div>
+                        <a href="#" class="inline-block bg-gold-500 hover:bg-yellow-600 text-white px-8 py-3 rounded-md text-sm font-medium transition shadow-sm">
+                            <i class="far fa-heart mr-2"></i> Share Your Story
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold text-navy-900 mb-4">Questions or Want to Help?</h3>
+                    <p class="text-slate-600 text-sm mb-6 max-w-xl mx-auto">Have questions about Pigeaud's Law or want to share your story? I'd love to hear from you.</p>
+                    <div>
+                        <a href="mailto:pigeaudslaw@gmail.com" class="inline-block bg-white border border-gold-400 text-gold-600 hover:text-gold-700 px-8 py-3 rounded-md text-sm font-medium transition shadow-sm">
+                            <i class="far fa-envelope mr-2"></i> pigeaudslaw@gmail.com
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-navy-900 text-white py-16 text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-2xl font-normal mb-2">Pigeaud's Law</h2>
+            <p class="text-gray-400 text-sm mb-8">Ensuring Access to Private Autopsies in Cases of Public Denial or Unavailability</p>
+            <p class="text-gray-500 text-xs uppercase tracking-widest mb-8">Proposed Legislation for the Commonwealth of Massachusetts</p>
+            <div class="w-16 h-px bg-gray-700 mx-auto mb-8"></div>
+            <p class="text-gray-600 text-xs">© 2026 All rights reserved. Built with purpose and hope.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
