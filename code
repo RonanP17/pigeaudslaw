@@ -103,7 +103,7 @@
                 <div id="bill-content" class="relative max-h-96 overflow-hidden fade-bottom transition-all duration-700 ease-in-out">
                     
                     <div class="mb-10">
-                        <h5 class="font-bold text-navy-900 uppercase text-sm mb-4">Section 1.</h5>
+                        <h5 class="font-bold text-navy-900 uppercase text mb-4">Section 1.</h5>
                         <p class="mb-4">Chapter 111 of the General Laws is hereby amended by inserting after section 244 the following section:</p>
                         <p class="font-semibold text-navy-900 mb-4">Section 245. Private Autopsy Subsidy Fund</p>
                         <ul class="legal-list text-slate-700 text-sm leading-relaxed space-y-4">
@@ -131,7 +131,7 @@
                     </div>
 
                     <div class="mb-10">
-                        <h5 class="font-bold text-navy-900 uppercase text-sm mb-4">Section 2.</h5>
+                        <h5 class="font-bold text-navy-900 uppercase text mb-4">Section 2.</h5>
                         <p class="mb-4">Chapter 38 of the General Laws is hereby amended by inserting after section 3 the following section:</p>
                         <p class="font-semibold text-navy-900 mb-4">Section 3A. Written Denials and Program Notification</p>
                         <ul class="legal-list text-slate-700 text-sm leading-relaxed space-y-4">
@@ -148,7 +148,7 @@
                     </div>
 
                     <div class="mb-10">
-                        <h5 class="font-bold text-navy-900 uppercase text-sm mb-4">Section 3.</h5>
+                        <h5 class="font-bold text-navy-900 uppercase text mb-4">Section 3.</h5>
                         <p class="mb-4">Chapter 38 of the General Laws is hereby amended by inserting after section 14 the following section:</p>
                         <p class="font-semibold text-navy-900 mb-4">Section 14A. Cremation Permit Fee Allocation</p>
                         <ul class="legal-list text-slate-700 text-sm leading-relaxed space-y-4">
@@ -158,7 +158,7 @@
                     </div>
 
                     <div class="mb-10">
-                        <h5 class="font-bold text-navy-900 uppercase text-sm mb-4">Section 4.</h5>
+                        <h5 class="font-bold text-navy-900 uppercase text mb-4">Section 4.</h5>
                         <p class="mb-4">Chapter 46 of the General Laws is hereby amended by inserting after section 26 the following section:</p>
                         <p class="font-semibold text-navy-900 mb-4">Section 26A. Death Certificate Surcharge for Autopsy Subsidy Fund</p>
                         <ul class="legal-list text-slate-700 text-sm leading-relaxed space-y-4">
